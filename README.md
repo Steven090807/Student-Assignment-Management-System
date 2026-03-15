@@ -39,4 +39,4 @@ A robust, full-stack Assignment Management System designed to streamline academi
 
 ## Project Presentation Design
 
-*(pending)*
+*(Teacher Assignment Home Page)*
