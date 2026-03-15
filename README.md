@@ -1,33 +1,42 @@
 # Assignment Management System (AMS)
 
 A robust, full-stack Assignment Management System designed to streamline academic workflows. This platform facilitates seamless interaction between Admins, Teachers, and Students, focusing on submission efficiency and real-time progress tracking.
+<br><br>
 
-🌟 Key Highlights
-Dynamic Countdown Timer: Implemented a real-time countdown system using JavaScript to provide students with visual cues for submission deadlines, improving time management.
+## 🌟 Key Highlights
 
-Role-Based Access Control (RBAC): Customized permissions for two distinct user roles to ensure data security and functional clarity.
+*  **Dynamic Countdown Timer** Implemented a real-time countdown system using **JavaScript** to provide students with visual cues for submission deadlines, significantly improving time management.
 
-Comprehensive Reporting: Automated tracking for late submissions, providing teachers with instant analytical insights.
+*  **Role-Based Access Control (RBAC)** Customized permissions for **Admins, Teachers, and Students** to ensure data security and functional clarity.
 
-🚀 Core Features
-Assignment Lifecycle: Full support for assignment creation, multi-format file uploads, and grading.
+*  **Comprehensive Reporting** Automated tracking for late submissions, providing teachers with instant analytical insights and student progress reports.
+<br>
 
-Secure Authentication: Encrypted login system for all academic staff and students.
+## Core Features
 
-Responsive UI: A clean, intuitive interface designed for both desktop and mobile browsers.
+* **Assignment Lifecycle:** Full support for assignment creation, multi-format file uploads, and grading.
+* **Secure Authentication:** Encrypted login system to protect academic staff and student data.
+* **Responsive UI:** A clean, intuitive interface designed for both desktop and mobile browsers.
+* **Feedback Loop:** Integrated system for teachers to provide direct feedback and grades on student submissions.
+<br>
 
-Feedback Loop: Integrated system for teachers to provide direct feedback on student submissions.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3/SCSS, JavaScript (ES6)
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend** | `HTML5`, `CSS3/SCSS`, `JavaScript (ES6)` |
+| **Backend** | `PHP` (Business Logic & Routing) |
+| **Database** | `MySQL` (Relational Schema Design) |
+<br>
 
-Backend: PHP (Business Logic & Routing)
+## 📁 Project Deliverables
 
-Database: MySQL (Relational Schema Design)
+- [x] **Fully Functional Web Application**
+- [x] **Database Schema & Documentation**
+- [x] **Technical Final Report & User Manual**
+- [x] **Presentation Slides & Demo**
+<br>
 
-📁 Project Deliverables
-Fully Functional Web Application
+## Project Presentation Design
 
-Database Schema & Documentation
-
-Technical Final Report & User Manual
+*(pending)*
