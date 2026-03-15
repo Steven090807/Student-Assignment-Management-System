@@ -129,3 +129,5 @@ A robust, full-stack Assignment Management System designed to streamline academi
   <i>(Teacher Interface: Class Members & Student List)</i>
 </p>
 <br><br>
+
+<i>Student Interface: Pending</i>
