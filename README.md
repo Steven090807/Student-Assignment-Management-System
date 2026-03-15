@@ -1,9 +1,9 @@
-# Assignment Management System (AMS)
+# 🎓 Assignment Management System (AMS)
 
 A robust, full-stack Assignment Management System designed to streamline academic workflows. This platform facilitates seamless interaction between Admins, Teachers, and Students, focusing on submission efficiency and real-time progress tracking.
 <br><br>
 
-## 🌟 Key Highlights
+## 💡 Key Highlights
 
 *  **Dynamic Countdown Timer** Implemented a real-time countdown system using **JavaScript** to provide students with visual cues for submission deadlines, significantly improving time management.
 
@@ -29,7 +29,7 @@ A robust, full-stack Assignment Management System designed to streamline academi
 | **Database** | `MySQL` (Relational Schema Design) |
 <br>
 
-## 📁 Project Deliverables
+## 📝 Project Deliverables
 
 - [x] **Fully Functional Web Application**
 - [x] **Database Schema & Documentation**
@@ -37,7 +37,7 @@ A robust, full-stack Assignment Management System designed to streamline academi
 - [x] **Presentation Slides & Demo**
 <br>
 
-## Project Presentation Design
+## Project Presentation Design (Teacher Interface)
 <p align="center">
   <img src="IMG/Teacher_HomePage01.png">
   <br>
@@ -130,4 +130,53 @@ A robust, full-stack Assignment Management System designed to streamline academi
 </p>
 <br><br>
 
-<i>Student Interface: Pending</i>
+## 👨‍🎓 Project Presentation Design (Student Interface)
+<p align="center">
+  <img src="IMG/Student_HomePage01.png">
+  <br>
+  <i>(Student Interface: Dashboard Home)</i>
+</p>
+<br><br>
+
+<p align="center">
+  <img src="IMG/Student_HomePage02.png">
+  <br>
+  <i>(Student Interface: Class Management / Join New Class)</i>
+</p>
+<br><br>
+
+<p align="center">
+  <img src="IMG/Student_HomePage03.png">
+  <br>
+  <i>(Student Interface: Class Search & Enrollment)</i>
+</p>
+<br><br>
+
+<p align="center">
+  <img src="IMG/Student_AssPage01.png">
+  <br>
+  <i>(Student Interface: Assignment Overview)</i>
+</p>
+<br><br>
+
+<p align="center">
+  <img src="IMG/Student_AssPage02.png">
+  <br>
+  <i>(Student Interface: Pending Assignment View)</i>
+</p>
+<br><br>
+
+<p align="center">
+  <img src="IMG/Student_AssPage03.png">
+  <br>
+  <i>(Student Interface: Completed Submission View)</i>
+</p>
+<br><br>
+
+<p align="center">
+  <img src="IMG/Student_ClassPage01.png">
+  <br>
+  <i>(Student Interface: Class Members & Student List)</i>
+</p>
+<br><br>
+
