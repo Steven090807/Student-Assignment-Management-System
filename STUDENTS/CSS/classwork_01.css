@@ -1,0 +1,331 @@
+html, body {
+    min-width: 786px;
+}
+body {
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: linear-gradient(to bottom, white 0%, white 0%,#F0F9FF 80%);
+    background-attachment: fixed;
+}
+.head-top{
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    position: fixed; 
+    z-index: 9999
+}
+.avatar,
+.avatar-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 10;
+}
+.avatar {
+    width: 80px; 
+    height: 80px;
+    background-color: #3D3BB7; /* #7e57c2*/
+    font-size: 30px;
+    right: 15%; 
+    bottom: 45%;
+}
+.avatar-top {
+    width: 40px; 
+    height: 40px;
+    background-color: #78909c;
+    font-size: 15px;
+    right: 5%; 
+    bottom: 0;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sidebar {
+    position: fixed;
+    font-size: 17px;            
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 16%;
+    padding-top: 120px;
+    z-index: 1;
+    background: linear-gradient(to bottom, white 0%, white 0%, #f6f9fcff 80%);
+}
+.sidebar a {
+    display: block;
+    color: #666666;
+    padding: 12px 10px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.sidebar a:hover{
+    background-color: #3D3BB7;
+    color: #fff;
+}
+.sidebar li:hover #error {
+    color: #fff; 
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li {
+    margin-bottom: 10px;
+    position: relative;
+}
+.too-small::before {
+    content: "🔒 Please resize window wider than 810px.";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    z-index: 9999;
+}
+hr#top{
+    border: 1px solid #e5e4e2;
+    width: 100%;
+    position: absolute;
+    left: -0.1%;
+}
+.topic {
+    display: flex;
+    gap: 60px;
+    margin: 68px 0 -1% 120px;
+    font-family: Arial, sans-serif;
+}
+.topic .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.topic a {
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+}
+.topic .active a {
+    color: #9400d3;
+}
+.topic .nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    margin: auto;
+    height: 5px;
+    width: 110%;
+    background: #9400d3;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: 1;
+}
+.topic #one::after {
+    opacity: 1;
+}
+#more {
+    right: 0%;
+}
+.note-function {
+    width: 85%;
+    margin: 0 120px;
+}
+.note{ 
+    margin-top: 6%; 
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+.note button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 4px;
+}
+.note-box {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 15px;
+    height: 180px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}  
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.task-function {
+    width: 85%;
+    margin: 0 120px;
+}
+.task { 
+    display: flex;
+    align-items: center; 
+    margin-top: 2%; 
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-bottom: 1.2rem;
+    justify-content: space-between;
+}
+.task button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 4px;
+}
+.nav-tabs .nav-item {
+    text-align: center;
+}
+.nav-tabs .nav-link {
+    width: 100%;
+    font-weight: 600;
+    color: grey;
+}
+.nav-tabs .nav-link.active {
+    color: black;
+    border-color: #d3d3d3  #d3d3d3  #fff;
+}
+.title-bar {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 15px;
+    padding-left: 22px;
+}
+.row-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #d3d3d3ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.row-content.expanded {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 1px solid #003153 ;
+    border-radius: 8px;
+}
+.row-extra {
+    display: none;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%;
+    color: #444;
+}
+.row-content.expanded .row-extra {
+    display: block;
+}
+.left-part {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.right-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(183, 185, 186);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.sub-text {
+    font-size: 13px;
+    color: black;
+    margin: 0;
+}
+.sub-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 4px;
+}
+.row-space{
+    margin: 7% auto;
+}
+.extra-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+.extra-left {
+    font-weight: 500;
+    padding: 5px;
+}
+.extra-right {
+    color: #32cd32 ;
+    margin-right: 25px;
+}
+.view-btn {
+    padding: 8px 16px;
+    background: none;
+    border: 1px solid rgb(52, 58, 64);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(52, 58, 64);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.view-btn:hover {
+    background-color: rgb(52, 58, 64);
+    color: #fff;
+}
+.submit-note {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    
+}
