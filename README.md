@@ -1,5 +1,13 @@
 # 🎓 Assignment Management System (AMS)
 
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
 <h4>A robust, full-stack Assignment Management System designed to streamline academic workflows. This platform facilitates seamless interaction between Admins, Teachers, and Students, focusing on submission efficiency and real-time progress tracking.</h4>
 <br>
 
@@ -180,8 +188,8 @@
 </p>
 <br><br>
 
----
-<div align="right">
-  <span>🛠️ Project created by 2025-08-29</span><br>
-</div>
+## Contact
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/steven0908)
+[![Jobstreet](https://img.shields.io/badge/Jobstreet-003580?style=for-the-badge&logo=target&logoColor=white)](https://my.jobstreet.com/profiles/steven-gohyishen-97x9Q8tbmm)
+
 
