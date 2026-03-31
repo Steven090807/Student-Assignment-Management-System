@@ -111,7 +111,7 @@ $dueTime = !empty($firstRow['due_datetime']) ? "Due to " . date('j M, H:i', strt
                 <hr class="upload-hr">
                 <div class="file-name">
                     <p>
-                        <a href="../TEACHER/classwork_02.php<?= htmlspecialchars($file_path) ?>" target="_blank" title="<?= htmlspecialchars($baseName) ?>">
+                        <a href="../TEACHERS/<?= htmlspecialchars($file_path) ?>" target="_blank" title="<?= htmlspecialchars($baseName) ?>">
                             <?= htmlspecialchars($displayName) ?>
                         </a>
                     </p>
@@ -145,7 +145,7 @@ $dueTime = !empty($firstRow['due_datetime']) ? "Due to " . date('j M, H:i', strt
                 <hr class="upload-hr">
                 <div class="file-name">
                     <p>
-                        <a href="<?= htmlspecialchars($file_path) ?>" target="_blank" title="<?= htmlspecialchars($baseName) ?>">
+                        <a href="../TEACHERS/<?= htmlspecialchars($file_path) ?>" target="_blank" title="<?= htmlspecialchars($baseName) ?>">
                             <?= htmlspecialchars($displayName) ?>
                         </a>
                     </p>
